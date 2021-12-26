@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install openjdk-11-jdk
 java -version
 
-step-4: Now we have to java version installed on same ubuntu system, In order to switch between them, use below commands-
+step-4: Now we have two java version installed on same ubuntu system, In order to switch between them, use below commands-
 sudo update-alternatives --config java
 # it will shows all the java version installed on system, Choose any number from the available list to activate respective Java version.
 
