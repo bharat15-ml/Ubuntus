@@ -7,7 +7,7 @@ sudo adduser abc
 sudo usermod -aG sudo abc
 
 3. To delete user
-sudo deluser bharat
+sudo deluser abc
 sudo deluser --remove-home abc
 
 # To verify, whether new user created or not
@@ -23,9 +23,9 @@ example - sudo passwd abc
 
 here- 
 -s /bin/bash – Set /bin/bash as login shell of the new account
--d /home/dir/ – Set /home/bharat/ as home directory of the new Ubuntu account
+-d /home/dir/ – Set /home/abc/ as home directory of the new Ubuntu account
 -m – Create the user’s home directory
--G sudo – Make sure bharat user can sudo i.e. give admin access to the new account
+-G sudo – Make sure abc user can sudo i.e. give admin access to the new account
 
 # get more details on above commands, by following linux manual command-
 man useradd
