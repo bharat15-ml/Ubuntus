@@ -16,7 +16,7 @@ cat /etc/passwd | grep '^abc'
 
 # You can also create new user with low level utility - useradd
 1. sudo useradd -s /path/to/shell -d /home/{dirname} -m -G {secondary-group} {username}
-example - sudo useradd -s /bin/bash -d /home/bharat/ -m -G sudo bharat
+example - sudo useradd -s /bin/bash -d /home/abc/ -m -G sudo abc
 
 2. sudo passwd {username}
 example - sudo passwd abc
